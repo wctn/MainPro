@@ -1,0 +1,138 @@
+
+module.exports = {
+  mode: "jit",
+  darkMode: false,
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content:[],
+  theme: {
+    fontSize: {
+      'form': '16px',
+      'head': '40px',
+      'login': '25px',
+      'title': '20px',
+      'normal': '18px',
+      'show': '14px',
+    },
+    
+    borderRadius: {
+      'card': '10px',
+      'input': '10px',
+      'submit' : '8px',
+      'none': '0',
+      'sm': '0.125rem',
+      DEFAULT: '0.25rem',
+      'md': '0.375rem',
+      'lg': '0.5rem',
+      'full': '9999px',
+      'large': '12px',
+    },
+    extend: {
+      backgroundColor: {
+        "14-165-233": "rgb(14, 165, 233)",
+      },
+      width: {
+        "10dt125rem": "10.125rem",
+      },
+      padding: {
+        "0dt375": "0.375rem",
+      },
+      margin: {
+        "1dt125": "1.125rem",
+      },
+      gridTemplateColumns: {
+        "3rem-1fr-3rem": "3rem 1fr 3rem",
+        "repeat-7-minmax-0v1fr": "repeat(7,minmax(0,1fr))",
+        "3-repeat-7-minmax-0v1fr-3rem": "3rem,repeat(7,minmax(0,1fr)),3rem",
+      },
+      fontSize: {
+        "0dt625": "0.625rem",
+        "1dt375": "1.375rem",
+        "1dt563": "1.563rem",
+        "0dt688": "0.688rem",
+        "0dt813": "0.813rem",
+      },
+      height: {
+        "50p": "50%",
+      },
+      minHeight: {
+        "2dt25": "2.25rem",
+        "5dt063": "5.063rem",
+      },
+      maxHeight: {
+        "18dt75": "18.75rem",
+      },
+      minWidth: {
+        "24dt813": "24.813rem",
+        "11dt5": "11.5rem",
+        "16dt563": "16.563rem",
+      },
+      width: {
+        "full":"100%",
+        "screen":" 100vW",
+        "auto":"auto",
+        "26": "26rem",
+        "24": "24rem",
+        "30": "30rem",
+        "20": "20rem",
+        "14": "14rem",
+        "16": "16rem",
+        "40": "40rem",
+        "10": "10rem",
+      },
+      height:{
+        "full":"100%",
+        "screen":" 100vW",
+        "auto":"auto",
+        "26": "26rem",
+        "24": "24rem",
+        "30": "30rem",
+        "14": "14rem",
+        "16": "16rem",
+        "50": "50rem",
+        "10": "10rem",
+      },
+      maxWidth: {
+        "50p": "50%",
+        "20rm": "20rem",
+      },
+      zIndex: {
+        one: 1,
+      },
+      letterSpacing: {
+        m0dt02: "-0.02em",
+      },
+      
+    },
+    colors: {
+      white: "white",
+      black: "black",
+      delete:'#dc2626',
+      "2062F6": "#2062F6",
+      "18181B": "#18181B",
+      "09101D": "#09101D",
+      "006A52": "#006A52",
+      E07A2C: "#E07A2C",
+      E0E0E0: "#E0E0E0",
+      FAFAFA: "#FAFAFA",
+      "71717A": "#71717A",
+      F4F4F5: "#F4F4F5",
+      A1A1AA: "#A1A1AA",
+      "005743": "#005743",
+      F7F7F7: "#F7F7F7",
+      "6D7580": "#6D7580",
+      "3B82F6": "#3B82F6",
+      DD4816: "#DD4816",
+      "0EA5E9": "#0EA5E9",
+      "0369A1": "#0369A1",
+      EFF6FF: "#eff6ff",
+      booking: "#60a5fa",
+      form: "#e0f2fe",
+      love: "#eef2ff",
+      edit: "#fbbf24",
+      list : "#faf5ff",
+      time:"#fef3c7",
+      
+    },
+  },
+  plugins: [],
+};

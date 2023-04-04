@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+.card {
+    @apply bg-love-50 place-content-center p-10 rounded-card;
+}
+@tailwind utilities;
+@layer components{
+}
